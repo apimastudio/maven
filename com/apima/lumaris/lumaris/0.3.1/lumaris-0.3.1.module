@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.apima.lumaris",
+    "module": "lumaris",
+    "version": "0.3.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.11.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lumaris-0.3.1.aar",
+          "url": "lumaris-0.3.1.aar",
+          "size": 6148436,
+          "sha512": "f5f874f7ad33f9c8ed01df0b608dbdab065c5c1f440885499f14ba891342f1b68c364c3ff30485a70292e1feef1d273e45bcbc0a93ec0ecedb7396083854b455",
+          "sha256": "3325cc917bb7619f905c80271f45235773e241488c54c41d4ad6aa4f134c5544",
+          "sha1": "d5e7910ee369f23011eca67eda0b8add1b8cd8f5",
+          "md5": "e5739d0363064758d7276bb7f5b65bfb"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.15.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-core",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-camera2",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-lifecycle",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "com.google.mediapipe",
+          "module": "tasks-vision",
+          "version": {
+            "requires": "0.10.29"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.11.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lumaris-0.3.1.aar",
+          "url": "lumaris-0.3.1.aar",
+          "size": 6148436,
+          "sha512": "f5f874f7ad33f9c8ed01df0b608dbdab065c5c1f440885499f14ba891342f1b68c364c3ff30485a70292e1feef1d273e45bcbc0a93ec0ecedb7396083854b455",
+          "sha256": "3325cc917bb7619f905c80271f45235773e241488c54c41d4ad6aa4f134c5544",
+          "sha1": "d5e7910ee369f23011eca67eda0b8add1b8cd8f5",
+          "md5": "e5739d0363064758d7276bb7f5b65bfb"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "lumaris-0.3.1-javadoc.jar",
+          "url": "lumaris-0.3.1-javadoc.jar",
+          "size": 663231,
+          "sha512": "8abc93e523ba8402eba2c37024d513bdd78b46000a5cbf1ad35eb709cc2110d2d7566d7e4f936df862bade1650635e1fa041bdeec29b69159bc93ef2b4045dcf",
+          "sha256": "1db48c05f292b5fb91459a6ffe359cf36698dd4dfbb9bca2308bddfedef2c8b9",
+          "sha1": "1f68b0668930c667e41497bf6409700761b2c21a",
+          "md5": "6edd1edb6cb34cbc02a21e55bec82336"
+        }
+      ]
+    }
+  ]
+}

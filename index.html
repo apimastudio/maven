@@ -1,0 +1,26 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Lumaris Maven repository</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 15px/1.6 ui-sans-serif, system-ui, sans-serif; max-width: 46rem;
+         margin: 4rem auto; padding: 0 1.5rem; }
+  h1 { font-size: 1.4rem; margin-bottom: .25rem; }
+  p.sub { margin-top: 0; opacity: .7; }
+  pre { padding: 1rem; border-radius: 8px; overflow-x: auto;
+        background: color-mix(in srgb, currentColor 7%, transparent); }
+  code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .9em; }
+</style>
+<h1>Lumaris Maven repository</h1>
+<p class="sub">Real-time AR makeup for Android video calls.</p>
+<pre><code>repositories {
+    maven { url = uri("https://maven.apimastudio.com") }
+}
+
+dependencies {
+    implementation("com.apima.lumaris:lumaris:0.3.1")
+    implementation("com.apima.lumaris:lumaris-agora:0.3.1")  // optional
+}</code></pre>
+<p>No credentials required. Documentation at
+<a href="https://apimastudio.com/docs">apimastudio.com/docs</a>.</p>
