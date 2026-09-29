@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.apima.lumaris",
+    "module": "lumaris-agora",
+    "version": "0.4.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.apima.lumaris",
+          "module": "lumaris",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "io.agora.rtc",
+          "module": "full-sdk",
+          "version": {
+            "requires": "4.6.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lumaris-agora-0.4.0.aar",
+          "url": "lumaris-agora-0.4.0.aar",
+          "size": 8218,
+          "sha512": "3748d8678840db3779d9c7e29a5406911be2386b9e20f8c07dbde1831b00463c7c7a859b43b0bc0941db8cda6a0136a7364eb08e63441785aa01577e611be2c5",
+          "sha256": "9691ed24ca875bf3bf65e2c041a01c5bd1dd6e8093be3056bd70816f27db1ed7",
+          "sha1": "cec9b7b6e450e25801d5893a9c23c74691049393",
+          "md5": "2a3cd72c225d7a0e323ef3dec52c4e74"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.15.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.apima.lumaris",
+          "module": "lumaris",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "io.agora.rtc",
+          "module": "full-sdk",
+          "version": {
+            "requires": "4.6.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lumaris-agora-0.4.0.aar",
+          "url": "lumaris-agora-0.4.0.aar",
+          "size": 8218,
+          "sha512": "3748d8678840db3779d9c7e29a5406911be2386b9e20f8c07dbde1831b00463c7c7a859b43b0bc0941db8cda6a0136a7364eb08e63441785aa01577e611be2c5",
+          "sha256": "9691ed24ca875bf3bf65e2c041a01c5bd1dd6e8093be3056bd70816f27db1ed7",
+          "sha1": "cec9b7b6e450e25801d5893a9c23c74691049393",
+          "md5": "2a3cd72c225d7a0e323ef3dec52c4e74"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "lumaris-agora-0.4.0-javadoc.jar",
+          "url": "lumaris-agora-0.4.0-javadoc.jar",
+          "size": 276889,
+          "sha512": "1e1c6cba6edd655fce1ee5fcf82d9f4f1c740948cffaad7b7b402962dd6eb81c51a44188ffbe542e4d640ad56536b8e31d300afda2ccd6c44eb1cd821976df90",
+          "sha256": "0c5119bfea004ad71d61d616d098f3440addc5fbcdf69d6f407c6dd9639cbf7a",
+          "sha1": "b7fdf2eb012fb9caabbc8b319d084d525848f123",
+          "md5": "131fb3e9bea5ef6385a9812a171396f8"
+        }
+      ]
+    }
+  ]
+}
